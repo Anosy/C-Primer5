@@ -17,7 +17,7 @@ int main()
 	vector<PersonInfo> people;
 	string line, word;
 	istringstream iss;
-	cout << "请输入用户名和手机号：" << endl;
+	cout << " 请输入用户名和手机号:" << endl;
 	// 写入到vector中
 	while (getline(cin, line))
 	{
