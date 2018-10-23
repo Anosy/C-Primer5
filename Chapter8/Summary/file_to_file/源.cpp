@@ -11,7 +11,7 @@ int main()
 	ofstream ofs("data/write.txt", ofstream::out);
 	if (!ifs)
 	{
-		cerr << "无法打开文件！" << endl;
+		cerr << " 无法打开文件！" << endl;
 	}
 	while (getline(ifs, line))
 	{
